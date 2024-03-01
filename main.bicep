@@ -1,7 +1,7 @@
 @description('Azure location for deployment')
 param location string = resourceGroup().location
 param storageName string = '${namePrefix}${uniqueString (resourceGroup().id)}'
-param namePrefix string = 'marco'
+param namePrefix string = 'marco240301'
 
 param dockerImage string = 'nginx' //'nginxdemos/hello'
 param dockerImageTag string = 'latest'
