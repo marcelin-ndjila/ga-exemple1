@@ -34,4 +34,5 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           resourceGroupName: "rg-azure-exceedlabs"
-          template: azure-resources.bicep
+          template: main.bicep
+         #template: azure-resources.bicep
