@@ -1,5 +1,5 @@
 param location string = 'eastus'
-param storageName string = 'ga-storage20240301'
+param storageName string = 'gastorage20240301'
 
 resource storageaccount 'Microsoft.Storage/storageAccounts@2023-01-01' = {
   name: storageName
