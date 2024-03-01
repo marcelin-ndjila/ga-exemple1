@@ -1,4 +1,4 @@
-param namePrefix string = 'marco'
+param namePrefix string = 'marco240301'
 param appPlanId string
 param location string = resourceGroup().location
 

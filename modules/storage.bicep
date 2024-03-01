@@ -2,7 +2,7 @@
 @maxLength(24)
 @description('StorageName must have min 5 chars and a max of 24 chars')
 
-param namePrefix string = 'marco'
+param namePrefix string = 'marco240301'
 param storageName string = '${namePrefix}${uniqueString (resourceGroup().id)}'
 param location string = resourceGroup().location
 

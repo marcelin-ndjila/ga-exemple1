@@ -1,4 +1,4 @@
-param namePrefix string = 'marco'
+param namePrefix string = 'marco240301'
 param location string = resourceGroup().location
 param sku string = 'B1'
 
